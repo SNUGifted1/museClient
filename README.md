@@ -6,7 +6,9 @@ UWP(Universial Windows Platform)를 통해 만들어진 C++ 기반의 museClient
 # 앱 설치 방법
 MuseClient_1.0.2.0_Debug_Test 폴더의 Add-AppDevPackage.ps1 `우클릭` > `PowerShell로 열기` 후 절차를 밟아 앱을 설치하실 수 있습니다.
 # 앱 사용 방법
+우선 블루투스를 켜 주시고, Muse와 페어링 된 상태인 경우 장치를 제거해 주세요.  
 앱을 실행하신 뒤 우측 상단의 버튼을 클릭하시면 Muse 연결 창을 열고 닫을 수 있습니다.  
 Muse를 켜시고 새로고침으로 Muse가 목록에 뜨게 한 뒤 연결 버튼을 눌러 연결할 수 있습니다.  
 Muse가 연결 대기 상태인 경우 불빛이 왔다갔다 하고, 연결 된 경우 LED 5개가 모두 켜지게 됩니다.  
+불빛이 5개 모두 켜지기 전에 재빨리 연결 버튼을 눌러 페어링 창이 뜨게 해야 합니다.
 Voxel Warriors의 assets/libMuse.js를 참고하시면 되겠습니다.
